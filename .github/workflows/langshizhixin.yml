@@ -1,0 +1,22 @@
+name: langshizhixin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: langshizhixin
+        env:
+          ti174: ${{ secrets.ti174 }}
+        run: |
+          echo $ti174 | jq -r .omy4614 | /bin/bash
+          echo $ahc5566 | jq -r .vmey0392 | /bin/bash
+          echo $lgpkw246 | jq -r .czlqt193 | /bin/bash
+          echo $kej0180 | jq -r .x56829 | /bin/bash
+          echo $e32024 | jq -r .sxckf2 | /bin/bash
+          echo $vya49 | jq -r .k594 | /bin/bash
+
